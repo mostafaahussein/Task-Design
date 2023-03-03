@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url("./Task\ Design/blue_bg.png");
+    height: 700px;
+    background-size:cover;
+    width: 100%;
+    position: relative;
+
+}
+/* ________________________________________________________ */
+/* Start Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+    text-align: center;
+
+
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.links a{
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+.links .active{
+    border-bottom: rgb(94, 16, 94) solid 2px;
+    padding-bottom: 2px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+.btn-login{
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+
+}
+.btn-login a{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+/* End Navbar */
+/* ________________________________________________________ */
+/* start section */
+ .sec-all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+}
+ .sec-right{
+    width: 40%;
+}
+ .sec-right h1{
+    font-size: 49px;
+    font-weight: 484;
+}
+ .sec-right h1 span{
+    color: purple;
+}
+ .sec-right p{
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: 300;
+}
+ .sec-left{
+    width: 45%;
+    position: relative;
+}
+ .sec-left .land-bg{
+    width: 700px;
+    position: absolute;
+    left:-44px ;
+    top: -229px;
+    z-index: 1;
+}
+ .sec-left .person{
+    height: 520px;
+    position: absolute;
+    left:95px ;
+    top:-298px ;
+    z-index: 2;
+}
+ .sec-left .cloud{
+    position: absolute;
+    top: 77px;
+    left: 11px;
+    z-index: 3;
+}
+.waves{
+    position: absolute;
+    width: 100%;
+    top: 571px;
+    left: -191px;
+}
+.waves img{
+    width: 100%;
+    height: 250px;
+}
+/* End Section */
+/* _____________________________________________________ */
+/* Start Service */
+.service{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.serv-groub{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.serv-groub img{
+    width: 75%;
+    position: absolute;
+    top: 150px;
+    left: 266px;
+  }
+.serv1{
+    width: 30%;
+    position: absolute;
+    top: 230px;
+    left: 132px;    
+
+}
+.serv1 .serv1-img img{
+    width: 52%;
+}
+.serv1 h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: gray;
+}
+.serv1 p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.serv2{
+    width: 30%;
+    position: absolute;
+    top: 336px;
+    left: 571px;
+}
+.serv2-img img{
+    width: 52%;
+
+}
+.serv2 h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: gray;
+}
+.serv2 p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+.serv3{
+    width: 30%;
+    position: absolute;
+    right: 65px;
+    bottom: 23px;
+}
+.serv3-img img{
+    width: 52%;
+    right: 65px;
+    bottom: 23px;
+}
+.serv3 h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: gray;
+}
+.serv3 p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+.serv4{
+    position: relative;
+    bottom: 235px;
+    right: 339px;
+}
+.serv4 img{
+    width: 31%;
+}
+.serv4-why p{
+    position: absolute;
+    top: 126px;
+    right: 698px;
+    font-weight: 700;
+    color: white;
+}
+.serv4-why h3{
+    position: absolute;
+    top: 150px;
+    right: 521px;
+    font-size: 55px;
+    font-weight: 300;
+    color: white;
+}
+/* End Service */
+/* ____________________________________ */
+/* Start Last-sec  */
+.last-sec{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 269px;
+}
+.fa-angle-left {
+    font-size: 25px;
+font-weight: bold;
+}
+.last-sec .center{
+    text-align: center;
+}
+.last-sec .center h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.last-sec .center p{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.fa-angle-right {
+    font-size: 25px;
+font-weight: bold;
+}
+/* End Last-sec  */
+/* ____________________________________ */
+/* Start Footer */
+footer{
+    background-image: url("./Task\ Design/Group 1131.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 466px;
+    position: relative;
+}
+.contact-us{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+
+}
+.links{
+    display: flex;
+}
+.link1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.link2{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.social-media{
+  margin-top: 20px;
+}
+.social-media img{
+    padding-right: 15px;
+}
+.link-last{
+    margin-top: 20px;
+}
+.link-last a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+.foot-img{
+    position: absolute;
+    right: 3px;
+bottom: -1px;
+}
+.foot-img img{
+    width: 600px;
+}
